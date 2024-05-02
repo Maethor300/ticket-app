@@ -1,9 +1,9 @@
 import React from 'react'
 
-const  TicketPage = () => {
+const  TicketPage = ({params}) => {
   return (
     <div>
-        TicketPage
+        TicketPage {params.id}
     </div>
   )
 }
